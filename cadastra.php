@@ -6,7 +6,7 @@
         </head>	
             <body>
                 <form method="POST" action="cadastro.php" >
-                    
+                  
                     <h3> Confira seus dados e finalize o processo de cadastramento </h3>
                         
                     <?php $username = $_POST['username']; if(strlen($username)<6 OR empty($username))
@@ -28,7 +28,8 @@
                              echo "seu cep é: ".$_POST['cep']."<br/>";
                              echo "seu Username é: ".$_POST['username']."<br/>";
                         ?>
-                    <input type="submit" value="finalizar processo"/>
+                    <br/>
+                    <?php include 'cadastro.php'; ?>
                 </form>
             </body>
     </html>
