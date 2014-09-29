@@ -4,7 +4,7 @@
     <title>Desenvolvendo Websites com PHP</title> 
     <meta charset="UTF-8">
 </head>
-    <body> 
+    <body>
 	<p align="center"><big><big>
                 <strong> Cadastramento - Etapa 2 de 3 </strong></big></big>
         </p> 
